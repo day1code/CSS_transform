@@ -1,0 +1,70 @@
+body{
+    margin: auto;
+    border: 1px solid;
+    padding-left: 500px;
+}
+.RotateY h1, p, h2{
+    border: 3px solid;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(29, 133, 133, 0.5);
+    transition: 8s ;
+}
+.RotateY h1:hover{
+    transform: rotateY(270deg);
+    cursor: pointer;
+}
+.RotateY p:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+.RotateY h2:hover{
+    transform: rotateY(90deg);
+    cursor: pointer;
+}
+.RotateX h1, p, h2{
+
+    border: 3px solid;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(29, 133, 133, 0.5);
+    transition: 8s ;
+}
+.RotateX h1:hover{
+    transform: rotateX(270deg);
+    cursor: pointer;
+}
+.RotateX p:hover{
+    transform: rotateX(180deg);
+    cursor: pointer;
+}
+.RotateX h2:hover{
+    transform: rotateX(90deg);
+    cursor: pointer;
+}
+.RotateZ h1, p, h2{
+
+    border: 3px solid;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(29, 133, 133, 0.5);
+    transition: 8s ;
+}
+.RotateZ h1:hover{
+    transform: rotateZ(270deg);
+    cursor: pointer;
+}
+.RotateZ p:hover{
+    transform: rotateZ(180deg);
+    cursor: pointer;
+}
+.RotateZ h2:hover{
+    transform: rotateZ(90deg);
+    cursor: pointer;
+}
